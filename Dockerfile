@@ -2,7 +2,7 @@
 ##                                 Base Image                               ##
 ##############################################################################
 ARG ROS_DISTRO=humble
-# Ubuntu 22.04.
+# Ubuntu version depends on your provided ros distro
 FROM osrf/ros:${ROS_DISTRO}-desktop
 ENV TZ=Europe/Berlin
 ENV TERM=xterm-256color

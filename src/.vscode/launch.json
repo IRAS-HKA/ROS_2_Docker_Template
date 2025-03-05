@@ -48,23 +48,24 @@
         },
     ],
     "inputs": [
+        // Example inputs
         {
             "id": "package",
             "type": "promptString",
             "description": "Package name",
-            "default": "aip_coordinator"
+            "default": "my_ros_pkg"
         },
         {
             "id": "program",
             "type": "promptString",
             "description": "Program name",
-            "default": "Coordinator"
+            "default": "TestProgram"
         },
         {
             "id": "ros_launch",
             "type": "promptString",
             "description": "ROS launch name",
-            "default": "navigation.launch.py"
+            "default": "test.launch.py"
         }
     ]
 }

@@ -1,6 +1,6 @@
 #!/bin/sh
 
-CONTAINER_NAME=robotrainer_humble
+CONTAINER_NAME=ros2_template_docker
 CONTAINER_TAG=humble
 
 docker build \
