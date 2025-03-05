@@ -1,5 +1,5 @@
 # ROS_2_Docker_Template
-Template Repo for ROS2 Docker based deployment @HKA-IRAS
+Template Repo for ROS2 Docker based deployment for the usage at @HKA-IRAS based on the concepts of @AndreasZachariae
 
 Extend the provided Dockerfile for your own projekt. Local files for development can be used within the docker by moving them into the 'src' folder.\
 Additional packages can be installed within the 'Global Dependencies' step within the Dockerfile, using apt and pip.\
